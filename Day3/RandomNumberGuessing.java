@@ -24,7 +24,7 @@ public class RandomNumberGuessing {
 			if(randomNumber == userGuessing) {
 				System.out.println("\n\n-------Your Results is-------\n");
 				System.out.println("🎉Congrats! Your Guessing is Correct! You win!");
-				System.out.println("Attemps : " + tryCount);
+				System.out.println("Attempts : " + tryCount);
 				
 				int score = 10 - tryCount;
 				if(score < 0) {
