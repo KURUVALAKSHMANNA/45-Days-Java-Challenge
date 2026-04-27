@@ -123,6 +123,12 @@ https://github.com/KURUVALAKSHMANNA/45-Days-Java-Challenge
 ## 👨‍💻 Author
 Lakshmanna K
 
+--- 
+### Connect With Me
+- GitHub:  https://github.com/KURUVALAKSHMANNA
+- LinkedIn: https://www.linkedin.com/in/lakshmanna-kuruva-749250334/
+- Email: kuruvalakshmanna4154@gmail.com
+
 ---
 
 ## 💡 Quote
@@ -358,5 +364,142 @@ Lakshmanna K
 
 ## 💡 Quote
 
-> “Strong programming foundations are built one project at a time.”
+> “Strong programming foundations are built one project at a time.
+
+
+
+# 🚀 Day 3 - Number Guessing Game
+
+## 📌 Project Overview
+This is **Day 3** of my **45 Days Java Backend Challenge**.
+
+This project is a simple **console-based Number Guessing Game** built using Java.  
+The program generates a random number, and the user has to guess it with hints provided after every attempt.
+
+This project helped me practice problem-solving and backend logic building using Java fundamentals.
+
+---
+
+## 🎯 Objective
+The objective of this project is to strengthen concepts like:
+
+- while Loop
+- Conditional Statements
+- Random Number Generation
+- User Input Handling
+- Logic Building
+
+---
+
+## 💡 Project Description
+In this game:
+
+- The system generates a random number.
+- The user enters a guess.
+- The program checks the guess and gives hints:
+
+- Too High
+- Too Low
+- Correct Guess
+
+The game continues until the correct number is guessed.
+
+---
+
+## 🧠 Concepts Practiced
+- Java Loops (`while` / `do-while`)
+- `if-else` Decision Making
+- `Random` Class
+- Scanner Input
+- Attempt Counter Logic
+
+---
+
+## 🏗 Features
+✔ Random number generation  
+✔ User guessing input  
+✔ High/Low hints  
+✔ Correct guess detection  
+✔ Attempt counter  
+✔ Console-based game logic
+
+---
+
+## 🔄 Program Flow
+
+```text
+Start
+↓
+Generate Random Number
+↓
+Take User Guess
+↓
+Compare Guess
+↓
+Give Hint
+↓
+Repeat Until Correct
+↓
+Display Attempts
+↓
+End
+```
+
+---
+
+## ▶️ Sample Output
+
+```text
+Guess a number between 1 and 100
+
+Enter your guess: 60
+Too High
+
+Enter your guess: 30
+Too Low
+
+Enter your guess: 45
+Correct Guess!
+
+You guessed the number in 3 attempts.
+```
+
+---
+
+## 🛠 Technologies Used
+- Java
+- Eclipse IDE
+- Random Class
+- Scanner
+- Git & GitHub
+
+---
+
+## 🚀 What I Learned
+Through this project I learned:
+
+- How loops control repeated execution
+- How random numbers work in Java
+- How decision-making logic is built
+- How to create simple game-based console applications
+
+---
+
+## 🔗 GitHub Repository
+https://github.com/KURUVALAKSHMANNA/45-Days-Java-Challenge
+
+---
+
+## 👨‍💻 Author
+Lakshmanna K
+
+--- 
+### Connect With Me
+- GitHub:  https://github.com/KURUVALAKSHMANNA
+- LinkedIn: https://www.linkedin.com/in/lakshmanna-kuruva-749250334/
+- Email: kuruvalakshmanna4154@gmail.com
+
+----
+
+## Quote
 > “Learning begins with simple logic and grows into powerful solutions.”
