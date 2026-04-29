@@ -503,3 +503,123 @@ Lakshmanna K
 
 ## Quote
 > “Learning begins with simple logic and grows into powerful solutions.”
+
+
+# Day 4 - Console Pattern Generator (Java)
+
+## 📌 Project Overview
+This is my **Day 4 project** of the **45 Days Java Challenge**.
+
+The **Console Pattern Generator** is a menu-driven Java application designed to generate different number and star patterns through user interaction. 
+This project focuses on strengthening Java fundamentals by applying loops, conditional statements, and logical thinking to solve pattern-based problems.
+
+Users can choose from multiple pattern options such as Number Triangle, Star Triangle, Multiplication Table, Even Number Pattern and more, making the program interactive and beginner-friendly.
+
+This project helped me improve problem-solving skills while understanding how nested loops work in real coding scenarios.
+
+---
+
+## 🚀 Features
+✔ Menu-driven console application  
+✔ Multiple pattern generation options  
+✔ Number Triangle Pattern  
+✔ Star Triangle Pattern  
+✔ Multiplication Table Generator  
+✔ Even Number Pattern  
+✔ User input-based dynamic rows  
+✔ Interactive switch-case menu  
+✔ Exit functionality  
+
+---
+
+## 🛠 Technologies Used
+- Java  
+- OOP Fundamentals  
+- Scanner Class  
+- Conditional Statements  
+- Nested Loops  
+- Switch Case  
+- Eclipse IDE  
+
+---
+
+## 📂 Project Structure
+```text
+Day4/
+└── Console_Pattern_Generator.java
+```
+
+---
+
+## 💡 Concepts Practiced
+This project helped practice:
+
+- Nested for loops  
+- Pattern printing logic  
+- Switch-case implementation  
+- User input handling  
+- Control flow statements  
+- Java problem-solving techniques  
+
+---
+
+## ▶️ How It Works
+1. Program displays a menu of pattern options.
+2. User selects a pattern.
+3. User enters the number of rows.
+4. Program generates the selected pattern.
+5. User can continue exploring patterns or exit.
+
+---
+
+## 📌 Sample Output
+```text
+1. Number Triangle
+2. Star Triangle
+3. Multiplication Table
+4. Even Number Pattern
+5. Exit
+
+Enter your choice: 1
+Enter rows: 5
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+```
+
+---
+
+## 🎯 Learning Outcomes
+Through this project I learned:
+
+- Building logic using patterns  
+- Improving coding accuracy with loops  
+- Structuring menu-driven programs  
+- Strengthening Java fundamentals  
+- Developing problem-solving mindset
+
+---
+
+## 🔥 Challenge Progress
+✅ Day 4 Completed  
+📌 Part of my 45 Days Java Challenge  
+💻 Building one Java project every day and sharing my learning journey on GitHub.
+
+---
+
+## 📖 Conclusion
+The **Console Pattern Generator** is a simple yet powerful project that strengthened my understanding of loops and logic building in Java. 
+Pattern problems are excellent for improving programming fundamentals and interview preparation.
+
+## Quote
+> “Logic grows stronger with every pattern you solve.”
+
+---
+
+## 👨‍💻 Author
+**Lakshmanna Kuruva**  
+Aspiring Java Developer  
+GitHub: https://github.com/KURUVALAKSHMANNA
