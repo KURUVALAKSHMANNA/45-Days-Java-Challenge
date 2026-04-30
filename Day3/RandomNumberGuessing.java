@@ -19,10 +19,7 @@ public class RandomNumberGuessing {
 				System.out.println("\n-------Your Results is-------\n");
 				System.out.println("🎉Congrats! Your Guessing is Correct! You win!");
 				System.out.println("Attempts : " + tryCount);
-<<<<<<< HEAD
-=======
-				
->>>>>>> c2bd473474631c3fcc563eb36f93d3c13ecb53a2
+
 				int score = 10 - tryCount;
 				if(score < 0) {
 					System.out.println("Your score is : " + score + "/10");
