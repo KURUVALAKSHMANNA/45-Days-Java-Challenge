@@ -623,3 +623,222 @@ Pattern problems are excellent for improving programming fundamentals and interv
 **Lakshmanna Kuruva**  
 Aspiring Java Developer  
 GitHub: https://github.com/KURUVALAKSHMANNA
+
+
+# 🚀 Day 5 - Employee Management System
+
+## 📌 Project Overview
+This is **Day 5** of my **45 Days Java Backend Challenge**.
+
+This project is a console-based **Employee Management System** built using Java.  
+It allows users to add, view, search, update, and delete employee records.
+
+The main focus of this project is to practice **Object-Oriented Programming**, arrays, methods, and menu-driven logic.
+
+---
+
+## 🎯 Objective
+The objective of this project is to understand how real-world data can be stored and managed using Java classes and objects.
+
+This project helps in learning:
+- Classes and Objects
+- Constructors
+- Arrays
+- Methods
+- Encapsulation basics
+- Menu-driven programming
+- CRUD operations
+
+---
+
+## 💡 Project Description
+The application manages employee records using a simple console menu.
+
+Each employee contains:
+- Employee ID
+- Employee Name
+- Employee Salary
+
+The user can perform basic employee management operations through menu options.
+
+---
+
+## 🚀 Features
+✔ Add Employee  
+✔ View All Employees  
+✔ Search Employee by ID  
+✔ Update Employee Details  
+✔ Delete Employee  
+✔ Exit Application  
+
+---
+
+## 🧠 Concepts Practiced
+- Java Class and Object
+- Constructor
+- Array of Objects
+- Getter and Setter Methods
+- Method Calling
+- `switch` statement
+- `while` loop
+- Scanner input
+- Basic CRUD operations
+
+---
+
+## 📂 Project Structure
+
+```text
+Day5/
+│
+├── Employee.java
+├── EmployeeServices.java
+└── Main.java
+```
+
+---
+
+## 🏗️ File Explanation
+
+### `Employee.java`
+This class stores employee details such as:
+- ID
+- Name
+- Salary
+
+It also contains:
+- Constructor
+- Getter methods
+- Setter methods
+- Display method
+
+---
+
+### `EmployeeServices.java`
+This class contains the main business logic.
+
+It handles:
+- Adding employee
+- Viewing employees
+- Searching employee
+- Updating employee
+- Deleting employee
+
+---
+
+### `Main.java`
+This is the main driver class.
+
+It contains:
+- Scanner input
+- Menu options
+- Switch case
+- Program execution flow
+
+---
+
+## 🔄 Program Flow
+
+```text
+Start
+↓
+Enter number of employees
+↓
+Display menu
+↓
+Choose operation
+↓
+Perform employee operation
+↓
+Return to menu
+↓
+Exit
+```
+
+---
+
+## 📋 Menu Options
+
+```text
+------ Employee Management System -----
+
+1. Add Employee
+2. View Employees
+3. Search Employee
+4. Delete Employee
+5. Update Employee
+6. Exit
+```
+
+---
+
+## ▶️ Sample Output
+
+```text
+Enter number of Employees :
+3
+
+------ Employee Management System -----
+
+1. Add Employee
+2. View Employees
+3. Search Employee
+4. Delete Employee
+5. Update Employee
+6. Exit
+
+Enter choice :
+1
+
+Enter Employee ID :
+101
+Enter Employee Name :
+Lakshmanna
+Enter Employee Salary :
+35000
+
+Employee Added Successfully!
+```
+
+---
+
+## 🔍 Example View Output
+
+```text
+101 | Lakshmanna | 35000.0
+102 | Ravi | 40000.0
+```
+
+---
+
+## ✅ What I Learned
+Through this project, I learned how to:
+- Create Java classes and objects
+- Store multiple objects using arrays
+- Write reusable service methods
+- Build menu-driven console applications
+- Perform CRUD operations in Java
+- Structure Java programs into multiple files 
+
+---
+
+📌 Conclusion
+
+This project helped me understand how to design a structured Java application using Object-Oriented Programming principles. 
+By implementing CRUD operations on employee data, I gained hands-on experience in working with classes, objects, arrays, and methods. 
+This marks an important step in my backend development journey, moving from basic logic to real-world application design.
+
+---
+
+## 🔗 GitHub Repository
+https://github.com/KURUVALAKSHMANNA/45-Days-Java-Challenge
+
+---
+## 👨‍💻 Author
+**Lakshmanna Kuruva**  
+Aspiring Java Developer  
+GitHub: https://github.com/KURUVALAKSHMANNA
+
+💬 Quote
+
+"From writing simple programs to managing real-world data — every step in coding builds a stronger developer." 🚀
