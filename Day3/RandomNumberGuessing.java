@@ -13,22 +13,10 @@ public class RandomNumberGuessing {
 		System.out.println("Guess a number between 1 to 100\n");
 		int tryCount = 0;
 		
-		Scanner scanner = new Scanner(System.in);
-		
-		System.out.println("🎮 Welcome to number Guessing Game!");
-		System.out.println("Guess a number between 1 to 100\n");
-		
-		int tryCount = 0;
-		
 		while(true) {
 			System.out.println("Enter guessing number : ");
 			int userGuessing = scanner.nextInt();
 			tryCount++;
-
-			if(randomNumber == userGuessing) {
-				System.out.println("\n-------Your Results is-------\n");
-				System.out.println("🎉Congrats! Your Guessing is Correct! You win!");
-				System.out.println("Attempts : " + tryCount);
 			
 			if(randomNumber == userGuessing) {
 				System.out.println("\n\n-------Your Results is-------\n");
