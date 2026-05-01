@@ -842,3 +842,267 @@ GitHub: https://github.com/KURUVALAKSHMANNA
 💬 Quote
 
 "From writing simple programs to managing real-world data — every step in coding builds a stronger developer." 🚀
+
+
+# 🚀 Day 6 - Bank Account Management System
+
+## 📌 Project Overview
+This project is part of my **45 Days Java Backend Challenge**.
+
+It is a **console-based Bank Account Management System** developed using Java, focusing on **Encapsulation**, a core Object-Oriented Programming (OOP) principle.
+
+The system simulates real-world banking operations while ensuring **data security and controlled access**.
+
+---
+
+## 🎯 Objective
+The objective of this project is to:
+
+- Understand and implement Encapsulation
+- Protect sensitive data using private variables
+- Control data access using methods
+- Build real-world backend logic
+- Design structured Java applications
+
+---
+
+## 💡 Project Description
+This application allows users to perform basic banking operations securely.
+
+### Features:
+✔ Create Account  
+✔ Deposit Money  
+✔ Withdraw Money  
+✔ Check Balance  
+✔ Display Account Details  
+
+All operations are handled through methods to ensure **secure data handling**.
+
+---
+
+## 🏦 Detailed Project Explanation
+
+This project simulates a **basic banking system** where user account data is securely managed using encapsulation.
+
+The system is designed similar to real-world backend applications:
+
+- Sensitive data is hidden using **private variables**
+- Operations are performed using **methods**
+- Direct access to data is restricted
+- Ensures **data integrity and security**
+
+---
+
+## ⚙️ System Working (Internal Logic)
+
+### 1. Account Creation
+- User enters account holder name
+- Account number is assigned
+- Initial balance is set
+
+---
+
+### 2. Deposit Operation
+- User enters amount
+- System validates:
+  - Amount must be positive
+- Balance is updated using method
+
+---
+
+### 3. Withdraw Operation
+- User enters amount
+- System checks:
+  - Sufficient balance
+- If valid → withdraw  
+- If invalid → show error  
+
+---
+
+### 4. Balance Inquiry
+- Displays current balance
+- Accessed using getter method
+
+---
+
+### 5. Display Account Details
+- Displays account holder name  
+- Displays account number  
+- Displays current balance  
+- Provides complete account summary  
+
+This operation is handled using the `displayDetails()` method.
+
+---
+
+## 🔐 Data Security Design
+
+Encapsulation is used to protect data:
+
+- `balance` is declared as **private**
+- Cannot be accessed directly
+- Access is controlled using:
+  - `deposit()`
+  - `withdraw()`
+  - `getBalance()`
+  - `displayDetails()`
+
+### Benefits:
+- Prevents invalid updates  
+- Ensures data safety  
+- Improves code structure  
+
+---
+
+## 🧩 Real-World Mapping
+
+| Project Feature | Real Banking System |
+|---------------|--------------------|
+| Deposit | Adding money to account |
+| Withdraw | ATM withdrawal |
+| Balance Check | Account inquiry |
+| Display Details | Account summary |
+| Encapsulation | Data security layer |
+
+---
+
+## 🧠 Concepts Practiced
+- Encapsulation
+- Access Modifiers (`private`, `public`)
+- Getters & Setters
+- Class and Object design
+- Method implementation
+- Menu-driven programming
+- Input validation
+- Displaying object details using `displayDetails()`
+
+---
+
+## ⚠️ Validations Implemented
+- ❌ No negative deposit  
+- ❌ No withdrawal beyond balance  
+- ❌ Account must be created before operations  
+
+---
+
+## 🔄 Program Flow
+
+```text
+Start
+↓
+Create Account
+↓
+Display Menu
+↓
+User Chooses Operation
+↓
+Perform Operation
+↓
+Repeat Until Exit
+↓
+End
+```
+
+---
+
+## 📋 Menu Options
+
+```text
+------ Bank Account System ------
+
+1. Create Account
+2. Deposit
+3. Withdraw
+4. Check Balance
+5. Display Account Details
+6. Exit
+```
+
+---
+
+## ▶️ Sample Output
+
+```text
+Enter Account Holder Name: Lakshmanna
+Account Created Successfully!
+
+------ Bank Menu ------
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Display Account Details
+5. Exit
+
+Enter Choice: 4
+
+------ Account Details ------
+Name: Lakshmanna
+Account Number: 1001
+Balance: 5000
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+Day6/
+├── BankAccount.java
+└── Main.java
+```
+
+---
+
+## ⚡ Key Design Decisions
+
+- Used separate class for BankAccount
+- Applied encapsulation for security
+- Implemented validation logic
+- Used menu-driven interaction
+- Used `displayDetails()` method for complete data display
+
+---
+
+## 🚀 Future Enhancements
+
+- Multiple accounts using ArrayList  
+- Transaction history  
+- PIN authentication  
+- Fund transfer feature  
+- JDBC database integration  
+- GUI application  
+
+---
+
+## 🎯 What I Learned
+
+Through this project, I learned:
+
+- How to secure data using encapsulation
+- How backend systems manage user data
+- How to design structured applications
+- How to implement validation logic
+- How to display object data using methods
+
+---
+
+## 🌟 Conclusion
+
+This project marks an important step in my backend development journey, where I moved from basic programming to designing secure, real-world applications using Object-Oriented Programming principles.
+
+---
+
+---
+## 👨‍💻 Author
+**Lakshmanna Kuruva**  
+Aspiring Java Developer  
+
+## 🔗 GitHub Repository
+https://github.com/KURUVALAKSHMANNA/45-Days-Java-Challenge
+
+## 💬 Quote
+
+> "Good developers write code. Great developers design systems." 🚀
+
+---
