@@ -1106,3 +1106,267 @@ https://github.com/KURUVALAKSHMANNA/45-Days-Java-Challenge
 > "Good developers write code. Great developers design systems." 🚀
 
 ---
+
+
+# 🚀 Day 7 - Bank System using Inheritance
+
+## 📌 Project Overview
+This project is part of my **45 Days Java Backend Challenge**.
+
+It is a console-based **Bank System** developed using Java, focusing on **Inheritance**, one of the core Object-Oriented Programming (OOP) principles.
+
+This project is an upgrade of the Day 6 Bank Account System. In this version, different account types are created using parent and child classes.
+
+---
+
+## 🎯 Objective
+The main objective of this project is to understand how inheritance helps in reusing code and building structured real-world applications.
+
+This project focuses on:
+
+- Inheritance in Java
+- Parent and child class relationship
+- Method overriding
+- Code reusability
+- Banking system logic
+- Menu-driven application development
+
+---
+
+## 💡 Project Description
+The system allows users to create different types of bank accounts:
+
+✔ Savings Account  
+✔ Current Account  
+
+After creating an account, the user can perform basic banking operations such as:
+
+✔ Deposit Money  
+✔ Withdraw Money  
+✔ Check Balance  
+✔ View Account Details  
+
+---
+
+## 🏦 Detailed Project Explanation
+
+This project uses a parent class called `BankAccount`, which contains common account details and operations.
+
+The child classes `SavingsAccount` and `CurrentAccount` inherit the properties and methods of the `BankAccount` class.
+
+This helps avoid code duplication and improves program structure.
+
+---
+
+## 🧩 Class Structure
+
+### 🔹 `BankAccount.java`
+This is the parent class.
+
+It contains common account details such as:
+
+- Account holder name
+- Account number
+- Balance
+
+It also contains common methods:
+
+- `deposit()`
+- `withdraw()`
+- `checkBalance()`
+- `display()`
+
+---
+
+### 🔹 `SavingsAccount.java`
+This is a child class that extends `BankAccount`.
+
+It represents a savings account and overrides the `display()` method to show the account type as **Savings**.
+
+---
+
+### 🔹 `CurrentAccount.java`
+This is a child class that extends `BankAccount`.
+
+It represents a current account and includes an extra field:
+
+- Business name
+
+It also overrides the `display()` method to show account type as **Current** and business details.
+
+---
+
+### 🔹 `Main.java`
+This is the driver class.
+
+It handles:
+
+- User input
+- Account type selection
+- Menu options
+- Calling banking operations
+
+---
+
+## 🧠 OOP Concepts Practiced
+
+- Inheritance
+- Method Overriding
+- Parent Class
+- Child Class
+- Constructor Chaining using `super()`
+- Code Reusability
+- Class and Object Design
+
+---
+
+## 📋 Menu Options
+
+### Main Menu
+```text
+------ Bank System ------
+
+1. Create Savings Account
+2. Create Current Account
+3. Exit
+```
+
+### Account Menu
+```text
+--- Account Menu ---
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. View Account Details
+5. Exit
+```
+
+---
+
+## 🔄 Program Flow
+
+```text
+Start
+↓
+Choose Account Type
+↓
+Enter Account Details
+↓
+Create Savings / Current Account
+↓
+Display Account Menu
+↓
+Perform Deposit / Withdraw / Balance Check / View Details
+↓
+Return to Menu
+↓
+Exit
+```
+
+---
+
+## ▶️ Sample Output
+
+```text
+------ Bank System ------
+
+1. Create Savings Account
+2. Create Current Account
+3. Exit
+
+Enter choice:
+1
+
+Enter Account Holder Name:
+Lakshmanna
+Enter mobile number:
+9876543210
+Enter Aadhaar Number:
+123456789012
+Enter Account Number:
+1001
+Enter Initial Deposit Amount:
+5000
+
+Savings Account Created Successfully!
+
+Account Type: Savings
+Name: Lakshmanna
+Account Number: 1001
+Balance: 5000.0
+```
+
+---
+
+## 🛠 Technologies Used
+
+- Java
+- OOP Concepts
+- Inheritance
+- Scanner Class
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+Day7/
+├── BankAccount.java
+├── SavingsAccount.java
+├── CurrentAccount.java
+└── Main.java
+```
+
+---
+
+## ✅ Validations Implemented
+
+- Invalid deposit amount check
+- Invalid withdrawal amount check
+- Insufficient balance check
+- Invalid menu choice handling
+
+---
+
+## 🚀 What I Learned
+
+Through this project, I learned:
+
+- How inheritance works in Java
+- How child classes reuse parent class properties
+- How to override methods
+- How to use `super()` to call parent constructor
+- How to build a multi-class banking system
+- How to structure Java code better
+
+---
+
+## 🌟 Conclusion
+
+This project helped me understand how inheritance makes Java applications more structured and reusable. By creating savings and current account classes from a common bank account class, I learned how real-world systems can be designed using OOP principles.
+
+---
+
+## 🔗 GitHub Repository
+
+https://github.com/KURUVALAKSHMANNA/45-Days-Java-Challenge
+
+---
+
+## 👨‍💻 Author
+**Lakshmanna Kuruva**  
+Aspiring Java Developer  
+GitHub: https://github.com/KURUVALAKSHMANNA
+
+---
+
+## 💬 Quote
+
+> "Inheritance helps developers reuse logic, reduce duplication, and design better systems." 🚀
+
+---
+
+
+
