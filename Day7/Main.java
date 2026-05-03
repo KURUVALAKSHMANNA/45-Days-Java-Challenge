@@ -19,7 +19,7 @@ public class Main {
             int choice = sc.nextInt();
             sc.nextLine();
 
-//          ACCOUNT XREATION 
+//          ACCOUNT CREATION 
             if (choice == 1) {
                 System.out.println("\nEnter Account Holder  Name : ");
                 String name = sc.nextLine();
